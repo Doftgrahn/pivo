@@ -10,7 +10,7 @@ const Dashboard = ({ user, leaderboard }) => {
         .map(user => (
             <li key={user.id}>
                 <img src={user.photo} alt={user.user} />
-                {user.beer}
+                <span>{user.beer}</span>
             </li>
         ));
 
