@@ -1,0 +1,22 @@
+$color-blue: #101357;
+$color-pink: #fea49f;
+$color-yellow: #fbaf08;
+
+footer {
+    background: $color-blue;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+}
+
+.active {
+    color: $color-yellow;
+}
